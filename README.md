@@ -58,6 +58,23 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Migration
+
+# create migration
+```bash
+$ npx mikro-orm migration:create
+```
+
+# apply migration
+```bash
+$ npx mikro-orm migration:up
+```
+
+# Tips about migration
+- [Use MikroORM migrations with NestJs](https://stackoverflow.com/questions/74674726/use-mikroorm-migrations-with-nestjs)
+- [Introduction to MikroORM with PostgreSQL](https://wanago.io/2022/05/23/api-nestjs-mikroorm-postgresql/)
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
